@@ -1,5 +1,6 @@
 {
-  "name": "orderistan-complete",
+  // wrangler.jsonc
+"name": "orderistan-frontend-cloudflare",
   "compatibility_date": "2025-01-01",
   "assets": {
     "directory": "./dist",
