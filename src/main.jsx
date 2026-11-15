@@ -1,0 +1,11 @@
+import { createRoot } from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
+import App from "./App";
+import "./styles.css";
+import "./styles-extra.css";
+import "./styles-v3.css";
+import "./styles-chat.css";
+import "./styles-premium.css";
+import { startFx } from "./fx";
+createRoot(document.getElementById("root")).render(<BrowserRouter><App /></BrowserRouter>);
+startFx();
